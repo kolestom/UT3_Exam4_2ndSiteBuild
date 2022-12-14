@@ -6,9 +6,7 @@
 }
 
 main{
-    /* height: 100vh; */
-    /* 242d38 */
-    /* efd592 */
+    
     background-color: #242d38;
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +42,7 @@ header span {
 }
 
 #cardContainer {
-    padding: 40px;
+    padding: 8rem 0rem;
     margin: 0rem 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -124,9 +122,6 @@ button:hover {
         font-size: 10px;
     }
 
-    body {
-        background-color: aqua;
-    }
 
     h1 {
         color: aqua;
