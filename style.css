@@ -38,7 +38,7 @@ header span {
     padding: 10px 20px 10px 10px;
     transform: scale(1.5);
     color: #efd592;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 #cardContainer {
@@ -116,15 +116,49 @@ button:hover {
     font-weight: 900; /* Küldtem neki a bold-ot, de nem akart vastagodni :-/ */
     margin-bottom: 30px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
 
     html {
         font-size: 10px;
     }
 
 
-    h1 {
-        color: aqua;
+    header p {
+        font-size: 16px;
     }
+
+    .cardNbr {
+        left: 18rem;
+    }
+    
+    button {
+        left: 10rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    html {
+        font-size: 10px;
+    }
+
+
+    header p {
+        font-size: 16px;
+    }
+    
+    .card {
+        max-width: 350px;
+    }
+
+    .cardNbr {
+        left: 16rem;
+    }
+    
+    button {
+        left: 8rem;
+    }
+
+    
     
 }
