@@ -3,3 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+@media screen and (max-width: 900px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        background-color: aqua;
+    }
+
+    h1 {
+        color: aqua;
+    }
+    
+}
